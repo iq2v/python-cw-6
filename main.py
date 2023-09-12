@@ -1,7 +1,7 @@
 person = {
     "name":"jana",
     "age":16,
-    "habbies":["Study"]
+    "hobbies":["Study"]
 }
 print(person["name"])
 print(person["age"])
@@ -13,7 +13,7 @@ print("person dictionary:",person)
 print("person dictionary:", len(person))
 
 #الجزء الثالث
-person["habbies"].append("Read")
+person["hobbies"].append("Read")
 print("person dictionary", person)
 
 def check_hobbies(person):
